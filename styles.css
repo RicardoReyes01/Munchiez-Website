@@ -173,7 +173,7 @@ html, body {
     font-size: 60px; /* Adjust size as needed */
     margin-bottom: 10px; /* Space between icons */
     text-decoration: none;
-    transition: color 0.s; /* Smooth color transition on hover */
+    transition: color 0.3s; /* Smooth color transition on hover */
 }
 
 .main-socials a:hover {
