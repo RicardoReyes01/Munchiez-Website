@@ -553,10 +553,6 @@ button:hover {
         padding: 10px; /* Add padding for easier clicking on mobile */
     }
 
-    .carousel-item img { 
-        height: 300px; 
-    }
-
     .menu-info-title{
         font-size: 25px;
     }
