@@ -492,7 +492,6 @@ button:hover {
         width: 100%;
         height: auto; /* Ensure image scales proportionally */
     }
-}
     
     .main-content {
         flex-direction: column;
