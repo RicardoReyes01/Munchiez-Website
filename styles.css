@@ -468,7 +468,7 @@ button:hover {
         justify-content: center;
         margin: auto;
         display: block;
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
     .info-text {
@@ -541,8 +541,11 @@ button:hover {
         padding: 10px; /* Add padding for easier clicking on mobile */
     }
 
+    .menu-title{
+        font-size: 35px;
+    }
     .menu-info-title{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .carousel-slider {
