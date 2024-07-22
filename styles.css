@@ -473,44 +473,24 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    .navbar {
-        flex-direction: column;
-    }
-
-    .menu-container {
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    .menu-icon {
-        margin-left: auto;
-    }
-
-    .logo {
-        margin: 0 auto;
-    }
-
-    .main-intro {
-        padding: 10px;
-    }
-
-    .info-text h2 {
-        font-size: 1.5em;
-    }
-
-    .carousel-wrapper {
-        flex-direction: column;
-    }
-
-    .carousel-item {
-        min-width: 100%;
-    }
-
+    
     .main-content {
+        flex-direction: column;
         padding: 10px;
     }
 
-    .hours-section {
-        padding: 10px 0;
+    .main-socials {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .main-socials a {
+        font-size: 40px;
+    }
+
+    .arch {
+        width: 100%;
+        height: auto;
     }
 }
