@@ -553,6 +553,7 @@ button:hover {
     .carousel-slider {
         width: 100%;
         margin: 0;
+        gap: 0;
     }
 
     .carousel-item img {
