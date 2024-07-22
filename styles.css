@@ -478,6 +478,8 @@ button:hover {
         flex-direction: column; /* Stack elements vertically on small screens */
         padding: 10px;
         gap: 10px; /* Adjust spacing between stacked elements */
+        align-items: center;
+        justify-content: center;
     }
 
     .info-text {
