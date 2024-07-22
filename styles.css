@@ -461,11 +461,6 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-
-    body{
-        width: 600px;
-    }
-
     .main-intro {
         flex-direction: column; /* Stack elements vertically on small screens */
         padding: 10px;
