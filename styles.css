@@ -475,6 +475,7 @@ button:hover {
         text-align: center; 
         width: 90%; 
         max-width: 300px;
+        margin-top: 50px;
     }
 
     .image-container {
