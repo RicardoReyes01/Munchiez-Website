@@ -501,7 +501,7 @@ button:hover {
     .main-socials {
         align-items: flex-start;
         gap: 20px;
-        padding-top: 30px-;
+        padding-top: 30px;
     }
 
     .main-socials a {
