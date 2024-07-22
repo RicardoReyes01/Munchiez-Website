@@ -463,8 +463,8 @@ button:hover {
     .main-intro {
         flex-direction: column; /* Stack elements vertically on small screens */
         padding: 10px;
-        gap: 30px; /* Adjust spacing between stacked elements */
-        align-items: center; /* Center items horizontally in column layout */
+        gap: 30px;
+        align-items: center;
         justify-content: center;
         margin: auto;
         display: block;
@@ -541,7 +541,7 @@ button:hover {
     }
 
     .menu-info-title{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .carousel-slider {
