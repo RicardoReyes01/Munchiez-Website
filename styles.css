@@ -478,23 +478,23 @@ button:hover {
         flex-direction: column; /* Stack elements vertically on small screens */
         padding: 10px;
         gap: 10px; /* Adjust spacing between stacked elements */
-        align-items: center;
+        align-items: center; /* Center items horizontally in column layout */
     }
 
     .info-text {
-        text-align: center;
-        margin-top: 70px;
+        text-align: center; 
+        width: 100%; 
     }
 
     .image-container {
-        width: 100%;
-        display: flex; /* Use flexbox to center the image */
-        justify-content: center;
+        width: 100%; 
+        display: flex;
+        justify-content: center; 
     }
 
     .image {
-        width: 100%;
-        height: auto; /* Ensure image scales proportionally */
+        max-width: 100%; 
+        height: auto; 
     }
     
     .main-content {
