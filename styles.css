@@ -491,7 +491,6 @@ button:hover {
     
     .main-content {
         flex-direction: column;
-        padding: 10px;
     }
 
     .main-socials {
