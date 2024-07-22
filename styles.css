@@ -560,4 +560,14 @@ button:hover {
     .menu-info-title{
         font-size: 25px;
     }
+
+    .carousel-slider {
+        width: 100%;
+        margin: 0;
+        gap: 10px;
+    }
+
+    .carousel-item img {
+        max-height: 300px; 
+    }
 }
