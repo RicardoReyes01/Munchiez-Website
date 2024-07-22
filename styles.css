@@ -485,8 +485,7 @@ button:hover {
     }
 
     .info-text {
-        margin-top: 100px;
-        margin-right: 100px;
+        margin: 100px auto 30px;
         text-align: center; 
         width: 100%; 
     }
