@@ -471,3 +471,25 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+@media only screen and (max-width: 600px) {
+    .main-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .main-socials {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .main-socials a {
+        font-size: 40px;
+    }
+
+    .arch {
+        width: 100%;
+        height: auto;
+    }
+}
