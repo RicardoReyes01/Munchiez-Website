@@ -473,8 +473,8 @@ button:hover {
     .info-text {
         margin: 60px auto 0px;
         text-align: center; 
-        width: 100%; 
-        width: 400px;
+        width: 90%; 
+        max-width: 300px;
     }
 
     .image-container {
