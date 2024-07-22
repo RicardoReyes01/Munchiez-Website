@@ -540,7 +540,7 @@ button:hover {
         padding: 10px; /* Add padding for easier clicking on mobile */
     }
 
-    .menu-title{
+    .title-container{
         font-size: 35px;
     }
     .menu-info-title{
