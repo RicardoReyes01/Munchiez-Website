@@ -483,6 +483,7 @@ button:hover {
 
     .info-text {
         text-align: center;
+        margin-top: 80px;
     }
 
     .image-container {
@@ -546,5 +547,10 @@ button:hover {
     .form-section button {
         width: 100%; /* Make button full-width */
         padding: 10px; /* Add padding for easier clicking on mobile */
+    }
+
+    .carousel-item img { 
+        height: 300px; 
+        
     }
 }
