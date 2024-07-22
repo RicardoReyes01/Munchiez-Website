@@ -461,30 +461,36 @@ button:hover {
 @media only screen and (max-width: 600px) {
 
     .main-intro {
-        flex-direction: column;
+        flex-direction: column; /* Stack elements vertically on small screens */
         padding: 10px;
-        gap: 30px;
-        align-items: center;
+        gap: 30px; /* Adjust spacing between stacked elements */
+        align-items: center; /* Center items horizontally in column layout */
         justify-content: center;
         margin: auto;
-
+        display: block;
     }
 
     .info-text {
-        margin: 0 auto 30px;
-        text-align: center;
-        width: 100%;
-        max-width: 400px;
+        margin: 100px auto 30px;
+        text-align: center; 
+        width: 100%; 
+        width: 400px;
     }
 
     .image-container {
-        width: 100%;
-        padding-right: 0;
+        width: 100%; 
+        display: flex;
+        justify-content: center; 
     }
 
     .image {
-        max-width: 100%;
-        height: auto;
+        max-width: 100%; 
+        height: auto; 
+    }
+    
+    .main-content {
+        flex-direction: column;
+        padding: 10px;
     }
 
     .main-socials {
