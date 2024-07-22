@@ -479,7 +479,7 @@ button:hover {
         padding: 10px;
         gap: 10px; /* Adjust spacing between stacked elements */
         align-items: center;
-        justify-content: center;
+        margin-top: 50px;
     }
 
     .info-text {
@@ -488,6 +488,8 @@ button:hover {
 
     .image-container {
         width: 100%;
+        display: flex; /* Use flexbox to center the image */
+        justify-content: center;
     }
 
     .image {
