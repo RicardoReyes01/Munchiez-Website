@@ -551,6 +551,9 @@ button:hover {
 
     .carousel-item img { 
         height: 300px; 
-        
+    }
+
+    .menu-info-title{
+        font-size: 25px;
     }
 }
