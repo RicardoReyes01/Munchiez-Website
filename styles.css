@@ -473,6 +473,11 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .main-intro{
+        flex-direction: column;
+    }
+
     .main-content {
         flex-direction: column;
         padding: 10px;
@@ -485,7 +490,7 @@ button:hover {
     }
 
     .main-socials a {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .arch {
