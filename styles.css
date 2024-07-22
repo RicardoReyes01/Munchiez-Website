@@ -515,4 +515,36 @@ button:hover {
         width: 100%;
         height: auto;
     }
+
+    .contact-container {
+        max-width: 90%; /* Reduce max-width to 90% of the viewport width */
+        margin: 20px auto; /* Reduce margin for smaller screens */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .contact-container h1 {
+        font-size: 1.5em; /* Adjust heading size for better readability on small screens */
+    }
+
+    .contact-container iframe.map {
+        width: 100%; /* Ensure map iframe scales to full width of the container */
+        height: 200px; /* Adjust height for better visibility on smaller screens */
+    }
+
+    .form-section form {
+        display: flex;
+        flex-direction: column; /* Stack form elements vertically */
+    }
+
+    .form-section label,
+    .form-section input,
+    .form-section textarea,
+    .form-section button {
+        margin-bottom: 10px; /* Add space between form elements */
+    }
+    
+    .form-section button {
+        width: 100%; /* Make button full-width */
+        padding: 10px; /* Add padding for easier clicking on mobile */
+    }
 }
