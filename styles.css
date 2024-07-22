@@ -257,20 +257,6 @@ footer {
     border-radius: 10%;
 }
 
-@media (max-width: 600px) {
-    .info-text h2 {
-        font-size: 2em;
-    }
-
-    .info-text p {
-        font-size: 1em;
-    }
-
-    .image {
-        width: 90%;
-    }
-}
-
 @media (orientation: portrait) {
     .main-intro{
         padding-bottom: 30px;
