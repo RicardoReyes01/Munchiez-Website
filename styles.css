@@ -476,6 +476,14 @@ button:hover {
         max-width: 400px;
     }
 
+    .info-text h2 {
+        font-size: 28px; /* Reduced font size for smaller screens */
+    }
+
+    .info-text p {
+        font-size: 16px; /* Reduced font size for smaller screens */
+    }
+
     .image-container {
         width: 100%;
         padding-right: 0;
