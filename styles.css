@@ -481,6 +481,7 @@ button:hover {
         align-items: center; /* Center items horizontally in column layout */
         justify-content: center;
         margin: auto;
+        display: block;
     }
 
     .info-text {
