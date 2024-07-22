@@ -518,7 +518,7 @@ button:hover {
 
     .contact-container {
         max-width: 90%; /* Reduce max-width to 90% of the viewport width */
-        margin: 20px auto; /* Reduce margin for smaller screens */
+        margin: 80px auto; /* Reduce margin for smaller screens */
         padding: 10px; /* Reduce padding for smaller screens */
     }
 
