@@ -246,7 +246,7 @@ footer {
     height: 500px;
     display: flex;
     justify-content: center;
-    gap: 10px; /* Space between images */
+    gap: 10px; 
     padding-right: 30px;
 }
 
@@ -277,13 +277,13 @@ footer {
     }
 
     .image-container {
-        flex-direction: column; /* Stack images vertically in portrait mode */
-        align-items: center; /* Center images horizontally */
+        flex-direction: column; 
+        align-items: center;
     }
 
     .image {
-        width: 90vw; /* Make images responsive to screen width */
-        height: 450px; /* Maintain aspect ratio */
+        width: 90vw;
+        height: 450px; 
         max-width: 505px;;
         margin: 15px 0;
         margin-right: 70px;
@@ -334,41 +334,41 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    gap: 25px; /* Optional: add space between icons */
+    gap: 25px; 
     padding-bottom: 40px;
 }
 
 .socials i {
     cursor: pointer;
-    font-size: 60px; /* Adjust the size of the icons as needed */
-    transition: color 0.3s ease; /* Optional: add a hover effect */
+    font-size: 60px; 
+    transition: color 0.3s ease; 
     color: #dd61c8;
 }
 
 .socials i:hover {
-    color: #88caf7; /* Change the color on hover */
+    color: #88caf7; 
 }
 
 .special-items {
     display: flex;
-    justify-content: center; /* Centers the items horizontally */
-    gap: 20px; /* Adds space between the items */
+    justify-content: center; 
+    gap: 20px;
     width: 100%;
     margin-bottom: 40px;
 }
 
 .limited {
     display: flex;
-    align-items: center; /* Centers the image vertically within the .limited div */
-    justify-content: center; /* Centers the image horizontally within the .limited div */
-    height: 500px; /* Adjust height as needed */
-    width: 500px; /* Adjust width as needed */
+    align-items: center; 
+    justify-content: center; 
+    height: 500px;
+    width: 500px; 
 }
 
 .limited img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the images cover the entire container without stretching */
+    object-fit: cover; 
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
@@ -462,7 +462,7 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
     .main-intro {
-        flex-direction: column; /* Stack elements vertically on small screens */
+        flex-direction: column; 
         padding: 10px;
         gap: 30px;
         align-items: center;
@@ -511,35 +511,35 @@ button:hover {
     }
 
     .contact-container {
-        max-width: 90%; /* Reduce max-width to 90% of the viewport width */
-        margin: 150px auto 30px; /* Reduce margin for smaller screens */
-        padding: 10px; /* Reduce padding for smaller screens */
+        max-width: 90%; 
+        margin: 150px auto 30px; 
+        padding: 10px; 
     }
 
     .contact-container h1 {
-        font-size: 1.5em; /* Adjust heading size for better readability on small screens */
+        font-size: 1.5em; 
     }
 
     .contact-container iframe.map {
-        width: 100%; /* Ensure map iframe scales to full width of the container */
-        height: 200px; /* Adjust height for better visibility on smaller screens */
+        width: 100%; 
+        height: 200px; 
     }
 
     .form-section form {
         display: flex;
-        flex-direction: column; /* Stack form elements vertically */
+        flex-direction: column; 
     }
 
     .form-section label,
     .form-section input,
     .form-section textarea,
     .form-section button {
-        margin-bottom: 10px; /* Add space between form elements */
+        margin-bottom: 10px; 
     }
     
     .form-section button {
-        width: 100%; /* Make button full-width */
-        padding: 10px; /* Add padding for easier clicking on mobile */
+        width: 100%; 
+        padding: 10px; 
     }
 
     .title-container{
@@ -556,6 +556,7 @@ button:hover {
     }
 
     .carousel-item img {
-        max-height: 300px; 
+        max-height: 400px;
+        object-fit: cover; 
     }
 }
