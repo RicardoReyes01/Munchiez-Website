@@ -99,6 +99,7 @@ html, body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    width: 100%;
 }
 
 .info-text{
