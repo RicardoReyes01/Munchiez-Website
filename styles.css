@@ -569,4 +569,14 @@ button:hover {
         width: 100%;
         box-sizing: border-box;
     }
+
+    .special-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .limited img {
+        width: 90%;
+        max-width: 400px;
+    }
 }
