@@ -548,6 +548,11 @@ button:hover {
     .title-container{
         font-size: 25px;
     }
+
+    .menu-title{
+        padding: 150px;
+    }
+
     .menu-info-title{
         font-size: 25px;
     }
