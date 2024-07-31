@@ -550,7 +550,11 @@ button:hover {
     }
 
     .menu-title{
-        padding: 150px;
+        padding-top: 150px;
+    }
+
+    .menu{
+        height: 325px;
     }
 
     .menu-info-title{
